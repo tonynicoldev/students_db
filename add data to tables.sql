@@ -1,0 +1,4 @@
+INSERT INTO student (first_name, last_name, marital_status) VALUES ('Kevin','Bacon','Married'),('Billy','Wibble','Single'),('Jane','Doe','Single'),('Joan','Jet','Single'),('Paul', 'Smith', 'Married');
+INSERT INTO course (name, fee, qualification) VALUES ('Computer Science',2000.00,'BSc'),('Mathematics',1500.00,'BSc'),('Physics',3200.00,'MSc'),('Chemistry',1200.00,'Diploma'),('Music',1200.00,'Diploma'),('Electronics',800.00,'City & Guilds');
+INSERT INTO grades (student_id, course_id, grade) VALUES (4,6,'Pass'),(4,4,'Merit'),(1,3,'Distinction'),(1,5,'Distinction'),(2,4,'Merit'),(3,2,'Upper Second Class'),(5,3,'Merit'), (5,1,'First Class');
+INSERT INTO tutor (title, name, course_id) VALUES ('Prof','Plumb',6),('Dr','Spock',3),('Dr','Bob',2),('Mr','Smith',1),('Mrs','Jones',4),('Prof','Finkle',5),('Mr','Mann',6),('Dr','Love',2);
